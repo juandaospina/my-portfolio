@@ -1,0 +1,45 @@
+.knowledges {
+  width: 90%;
+  margin-top: 4rem;
+}
+
+.container_skills {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(70px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  min-height: 10rem;
+  margin-top: 1.5rem;
+}
+
+.title {
+  font-weight: 800;
+  text-align: center;
+}
+
+.card_skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  min-width: 80px;
+  height: 70px;
+}
+
+.card_skills span {
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  .knowledges {
+    width: 60%;
+  }  
+  .title {
+    font-size: 56px;
+    line-height: 3.5rem;
+  }
+  .container_skills {
+    width: 100%;
+  }
+}
