@@ -9,16 +9,16 @@ export const PersonalProjects = () => {
       <h1 className={styles.title}>Proyectos</h1>
 
       <p className={styles.description}>
-        He desarrollado proyectos Frontend haciendo uso de herramientas y
-        servicios web
+        He desarrollado proyectos Frontend haciendo uso de tecnologías web, 
+        frameworks y librerías para la mejora de flujos de trabajo, como también,
+        herramientas que facilitan la implementación y el control en los ambientes de
+        desarrollo.
       </p>
       <div className={styles.card}>
         <div>
           <Image
             src="/gif-chat.gif"
             alt="photo Juan David"
-            // width={340}
-            // height={710}
             width={335}
             height={700}
             style={{
@@ -29,8 +29,6 @@ export const PersonalProjects = () => {
           <Image
             src="/iphone-mockup.png"
             alt="photo Juan David"
-            // width={360}
-            // height={750}
             width={360}
             height={740}
             style={{
@@ -79,8 +77,6 @@ export const PersonalProjects = () => {
           <Image
             src="/iphone-mockup.png"
             alt="photo Juan David"
-            // width={360}
-            // height={750}
             width={360}
             height={740}
             style={{

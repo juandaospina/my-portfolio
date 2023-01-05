@@ -1,14 +1,3 @@
-/* .title_text a:hover,
-.title_text a:focus,
-.title_text {
-  display: flex;
-  flex-direction: column;
-  line-height: 2rem;
-  font-size: 1.4rem;
-  font-weight: 800;
-  color: #24292f;
-} */
-
 .title_text {
   font-weight: 800;
 }

@@ -1,10 +1,11 @@
-import "bootstrap/dist/css/bootstrap.css";
 import { SyntheticEvent } from "react";
+
+import "bootstrap/dist/css/bootstrap.css";
 
 interface Props {
   classBtn: string;
   text: string;
-  url: any
+  url: any;
 }
 
 export const Button = (props: Props) => {
@@ -13,15 +14,15 @@ export const Button = (props: Props) => {
   const onHandleClick = (event: SyntheticEvent) => {
     event.preventDefault();
     window.location.assign(url);
-  }
+  };
 
   return (
     <button
-        className={`btn ${classBtn}`} 
-        type="button"
-        onClick={(event) => onHandleClick(event)}
+      className={`btn ${classBtn}`}
+      type="button"
+      onClick={(event) => onHandleClick(event)}
     >
-        {text}
+      {text}
     </button>
   );
 };

@@ -18,9 +18,7 @@ export const Knowledges = () => {
   return (
     <section id="knowledges" className={styles.knowledges}>
       <h1 className={styles.title}>Conocimientos</h1>
-      {/* <p className={styles.description}>
-        He desarrollado proyectos Frontend haciendo uso de herramientas y servicios web
-    </p> */}
+
       <div className={styles.container_skills}>
         <div className={styles.card_skills}>
           <Image src={HtmlImage} alt="html image" width={50} height={50} />
@@ -38,22 +36,12 @@ export const Knowledges = () => {
         </div>
 
         <div className={styles.card_skills}>
-          <Image
-            src={JavascriptImage}
-            alt="javascript image"
-            width={50}
-            height={50}
-          />
+          <Image src={JavascriptImage} alt="javascript image" width={50} height={50} />
           <span>JavaScript</span>
         </div>
 
         <div className={styles.card_skills}>
-          <Image
-            src={TypescriptImage}
-            alt="typescript image"
-            width={50}
-            height={50}
-          />
+          <Image src={TypescriptImage} alt="typescript image" width={50} height={50} />
           <span>TypeScript</span>
         </div>
 
@@ -68,12 +56,7 @@ export const Knowledges = () => {
         </div>
 
         <div className={styles.card_skills}>
-          <Image
-            src={ReactQueryImage}
-            alt="reactquery image"
-            width={50}
-            height={50}
-          />
+          <Image src={ReactQueryImage} alt="reactquery image" width={50} height={50} />
           <span>React Query</span>
         </div>
 
@@ -88,12 +71,7 @@ export const Knowledges = () => {
         </div>
 
         <div className={styles.card_skills}>
-          <Image
-            src={ExpressImage}
-            alt="Express image"
-            width={50}
-            height={50}
-          />
+          <Image src={ExpressImage} alt="Express image" width={50} height={50}/>
           <span>Express JS</span>
         </div>
 

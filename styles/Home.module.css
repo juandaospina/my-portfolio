@@ -12,12 +12,6 @@
   align-items: center;
 }
 
-/* SECTION TITLES */
-/* 
-.cardSocial a:nth-child(2n+1) {
-  color: #0d6efd;
-} */
-
 /* FOOTER */
 .footer {
   display: flex;
@@ -35,11 +29,6 @@
   flex-grow: 1;
 }
 
-/* .logo {
-  height: 1em;
-  margin-left: 0.5rem;
-} */
-
 @media (min-width: 768px) {
   .title {
     font-size: 56px;
@@ -50,32 +39,6 @@
     margin: 0 auto;
     width: 50rem;
   }
-  /* .containerImg img {
-    width: 100%!important;
-    height: 30rem!important; 
-  }
-  .containerImg div:nth-child(2),
-  .containerImg div:nth-child(3),
-  .containerImg div:nth-child(4) {
-    min-width: 10rem;
-    font-size: 20px;
-    font-weight: 500;
-  }
-  .containerImg div:nth-child(5) {
-    top: 24px;
-    left: 35px;
-  }
-  .aboutMe .cardAboutMe {
-    width: 25rem;
-  }
-  .cardAboutMe div > h2 {
-    font-size: 20px;
-  }
-
-  .cardAboutMe div > p {
-    font-size: 12px;
-    color: #57606a;
-  } */
 }
 
 @media (prefers-color-scheme: #f2f4f9) {

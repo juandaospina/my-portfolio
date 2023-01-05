@@ -1,7 +1,9 @@
 import { useState } from "react";
+
 import { FiMenu } from "react-icons/fi";
-import styles from "../../../styles/Header.module.css";
+
 import { NavbarMobile } from "../NavbarMobile";
+import styles from "../../../styles/Header.module.css";
 
 export const Header = () => {
   const [activateMenu, setActivateMenu] = useState(false);
