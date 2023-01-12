@@ -9,9 +9,10 @@ export const AboutMe = () => {
       <h1 className={styles.title_text}>Acerca de mí</h1>
 
       <p className={styles.description_text}>
-        Soy tecnólogo en sistemas, orientado hacia el desarrollo frontend y el 
-        cumplimiento de resultados, cuento con excelentes habilidades comunicativas, 
-        creativo, enfocado en la resolución de problemas y en el buen relacionamiento interpersonal.
+        Tecnólogo en sistemas con experiencia en desarrollo front-end. Me gusta escribir 
+        código de calidad que permita seguir el lineamiento de los objetivos, como también 
+        las mejores prácticas de rendimiento y calidad de código. Creativo y con buenas habilidades 
+        comunicativas y un aprendiz constante. 
       </p>
 
       <div className={styles.cardAboutMe}>

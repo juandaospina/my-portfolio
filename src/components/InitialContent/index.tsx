@@ -15,7 +15,7 @@ export const InitialContent = () => {
   return (
     <>
       <h1 className={styles.title}>
-        Hola! Soy Juan David Ospina
+        ¡Hola! Soy Juan David Ospina
         <br></br>
         Frontend Developer
       </h1>

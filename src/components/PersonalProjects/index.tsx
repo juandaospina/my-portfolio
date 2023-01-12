@@ -49,7 +49,7 @@ export const PersonalProjects = () => {
             <Button
               classBtn="btn-primary"
               text="Demo"
-              url="http://localhost:3000"
+              url="https://groupchat-app.vercel.app/"
             />
             <Button
               classBtn="btn-outline-primary"
