@@ -17,7 +17,7 @@ export const PersonalProjects = () => {
       <div className={styles.card}>
         <div>
           <Image
-            src="/gif-chat.gif"
+            src="/gifchat.gif"
             alt="photo Juan David"
             width={335}
             height={700}
