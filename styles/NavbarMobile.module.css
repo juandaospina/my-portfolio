@@ -1,7 +1,9 @@
 .menuMobileContainer {
+    position: relative;
+    top: 4rem;
     width: 100%;
     min-height: 9rem;
-    margin-top: -0.5rem;
+    margin-top: 1rem;
     padding: 1rem 1rem 0.6rem 1rem;
     background-color: #FFFFFF;
     border-bottom: 1px solid #DFDFE1;

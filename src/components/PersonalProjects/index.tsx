@@ -37,22 +37,22 @@ export const PersonalProjects = () => {
           />
         </div>
         <div>
-          <span>#React #JavaScript #Firebase #Firestore #Sass</span>
+          <span>#React #Redux #Firebase #Firestore #Sass #MobileFirst</span>
           <h2>Chat grupal</h2>
           <p>
-            Proyecto web que permite iniciar un chat grupal, a la vez que hace
-            uso de api de autenticación de Google para el control de sesiones
-            del usuario; haciendo uso de React JS, Firestore database y Firebase
-            authentication
+            Proyecto web que permite iniciar una conversación en un chat grupal, 
+            a la vez que habilita la creación de cuenta, login de correo y contraseña,
+            autenticación con Google y visualización de datos del perfil del usuario.
           </p>
           <div>
             <Button
-              classBtn="btn-primary"
+              background="#24292f"
               text="Demo"
               url="https://groupchat-app.vercel.app/"
             />
             <Button
-              classBtn="btn-outline-primary"
+              background="#FFF"
+              textColor="#000"
               text="Código"
               url="https://bitbucket.org/juand_ospina/proyecto-final-sena/"
             />
@@ -65,8 +65,6 @@ export const PersonalProjects = () => {
           <Image
             src="/pokedex.gif"
             alt="photo Juan David"
-            // width={340}
-            // height={710}
             width={335}
             height={700}
             style={{
@@ -88,13 +86,14 @@ export const PersonalProjects = () => {
           <span>#ReactNative #JavaScript #PokeApi</span>
           <h2>Pokedex App</h2>
           <p>
-            Aplicación movil que permite traer una lista de pokemones haciendo
+            Aplicación movil que muestra una lista de pokemones haciendo
             uso de la api PokeApi, así mismo, conocer algunas características de
             estos a través de datos brindados por el servicio.
           </p>
           <div>
             <Button
-              classBtn="btn-outline-primary"
+              background="#FFF"
+              textColor="#000"
               text="Código"
               url="https://github.com/juandaospina/pokedex-app"
             />
