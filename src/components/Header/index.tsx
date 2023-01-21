@@ -4,6 +4,7 @@ import { FiMenu } from "react-icons/fi";
 
 import { NavbarMobile } from "../NavbarMobile";
 import styles from "../../../styles/Header.module.css";
+import { Button } from "../Button";
 
 export const Header = () => {
   const [activateMenu, setActivateMenu] = useState(false);
@@ -29,7 +30,15 @@ export const Header = () => {
               <a href="">Certificaciones</a>
             </li>
           </ul>
-          <div>
+          <div className={styles.contact}>
+            <Button 
+              background="#000"
+              text="Contacto"
+              textColor="#FFF"
+              url="mailto:juan.ospinal@outlook.com"
+            />
+          </div>
+          <div className={styles.menuMobile}>
             <FiMenu onClick={onActivateMenu} />
           </div>
         </nav>

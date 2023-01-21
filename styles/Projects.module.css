@@ -65,7 +65,7 @@
 
 .card div > p {
   color: #57606a;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .card div > div {
@@ -97,7 +97,8 @@
     line-height: 3.5rem;
   }
   .description {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 1.75rem;
     margin: 0 auto;
     width: 50rem;
   }

@@ -1,5 +1,5 @@
 .title {
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 800;
 }
 
@@ -16,26 +16,46 @@
   color: #57606a;
 }
 
+.wrapperButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.wrapperButtons button:nth-child(2) {
+  background-color: #FFF;
+  border: 1px solid #e1e2e6;
+}
+
+.wrapperButtons button:nth-child(2) a {
+  color: #24292f;
+}
+
 .btn {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 8px;
-  width: 16rem;
-  height: 3rem;
+  width: 8.5rem;
+  height: 2.8rem;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 500;
   background-color: #24292f;
   color: #ffffff;
   border: none;
   border-radius: 5px;
   margin: 2.5rem 0 4rem;
   cursor: pointer;
+  box-shadow: 0 2px 12px rgb(0 0 0 / 14%);
 }
 
 .btn a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 13px;
+  display: flex;
+  gap: 0.5rem;
+  /* letter-spacing: 1px; */
 }
 
 .containerImg {
@@ -107,11 +127,21 @@
   .title {
     font-size: 56px;
     line-height: 3.5rem;
+    margin-top: 3.2rem;
   }
   .description {
-    font-size: 20px;
+    font-size: 16px;
+    line-height: 1.75rem;
     margin: 0 auto;
     width: 50rem;
+  }
+  .wrapperButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+  }
+  .btn {
+    width: 10rem;
   }
   .containerImg img {
     width: 100% !important;

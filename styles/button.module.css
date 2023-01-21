@@ -1,0 +1,24 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    width: 6rem;
+    height: 2.8rem;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    /* margin-top: 0.5rem; */
+    cursor: pointer;
+    box-shadow: 0 2px 12px rgb(0 0 0 / 14%);
+  }
+  
+  .btn a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    gap: 0.5rem;
+  }

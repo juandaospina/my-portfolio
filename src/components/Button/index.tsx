@@ -1,28 +1,29 @@
-import { SyntheticEvent } from "react";
-
+import Link from "next/link";
 import "bootstrap/dist/css/bootstrap.css";
 
+import styles from "../../../styles/button.module.css";
+
 interface Props {
-  classBtn: string;
+  textColor?: string;
+  background: string;
   text: string;
   url: any;
 }
 
 export const Button = (props: Props) => {
-  const { classBtn, text, url } = props;
-
-  const onHandleClick = (event: SyntheticEvent) => {
-    event.preventDefault();
-    window.location.assign(url);
-  };
+  const { background, textColor, text, url } = props;
 
   return (
     <button
-      className={`btn ${classBtn}`}
+      className={styles.btn}
       type="button"
-      onClick={(event) => onHandleClick(event)}
+      style={{
+        backgroundColor: background,
+      }}
     >
-      {text}
+      <Link href={url} target="_blank" style={{ color: textColor }}>
+        {text}
+      </Link>
     </button>
   );
 };

@@ -28,9 +28,9 @@ export default function Home() {
         </main>
 
         <footer className={styles.footer}>
-          <span>
-            Developed by Juan David 💻
-          </span>
+          <span>Juan David Saldarriaga Ospina</span>
+          <span>juan.ospinal@outlook.com</span>
+          <span>+573193188631</span>
         </footer>
       </div>
     </>

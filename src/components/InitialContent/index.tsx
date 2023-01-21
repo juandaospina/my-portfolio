@@ -10,6 +10,7 @@ import { SiTypescript } from "react-icons/si";
 import Image from "next/image";
 
 import styles from "../../../styles/Content.module.css";
+import Link from "next/link";
 
 export const InitialContent = () => {
   return (
@@ -21,17 +22,26 @@ export const InitialContent = () => {
       </h1>
 
       <p className={styles.description}>
-        Tecnólogo en desarrollo de software, con experiencia en desarrollo
+        Tecnólogo en desarrollo de software, con 1 año de experiencia en desarrollo
         Frontend usando tecnologías y lenguajes como, HTML5, CSS3, JavaScript,
         TypeScript, React JS, Redux Toolkit, React Hook Form, Next JS entre otras tecnologías
       </p>
 
+    <div className={styles.wrapperButtons}>
       <button className={styles.btn}>
-        <FaLinkedinIn />
-        <a href="https://www.linkedin.com/in/juan-david-saldarriaga-ospina-268224197/">
-          Linkedin
-        </a>
+        <Link href="https://www.linkedin.com/in/juan-david-saldarriaga-ospina-268224197/" target="_blank">
+          Linkedin 
+          <span>→</span>
+        </Link>
       </button>
+
+      <button className={styles.btn}>
+        <Link href="https://github.com/juandaospina" target="_blank">
+          GitHub 
+          <span>→</span>
+        </Link>
+      </button>
+    </div>
 
       <div className={styles.containerImg}>
         <Image
