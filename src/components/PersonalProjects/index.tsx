@@ -3,6 +3,10 @@ import Image from "next/image";
 
 import styles from "../../../styles/Projects.module.css";
 
+const tecnologies_chat = ["React", "JavaScript", "Firebase", "redux", "MobileFirst"];
+const tecnologies_pokedex = ["React", "JavaScript", "Firebase", "redux", "MobileFirst"];
+
+
 export const PersonalProjects = () => {
   return (
     <section id="projects" className={styles.grid}>
@@ -18,7 +22,7 @@ export const PersonalProjects = () => {
         <div>
           <Image
             src="/gifchat.gif"
-            alt="photo Juan David"
+            alt="Gif chat"
             width={335}
             height={700}
             style={{
@@ -28,7 +32,7 @@ export const PersonalProjects = () => {
           />
           <Image
             src="/iphone-mockup.png"
-            alt="photo Juan David"
+            alt="Mockup phone"
             width={360}
             height={740}
             style={{
@@ -36,8 +40,19 @@ export const PersonalProjects = () => {
             }}
           />
         </div>
+
         <div>
-          <span>#React #Redux #Firebase #Firestore #Sass #MobileFirst</span>
+          {/* <div className={styles.container_tecnologies}>
+            {tecnologies_chat.map((item, index) => (
+                <span 
+                  key={index}
+                  className={styles.tecnologies}
+                >
+                  {item}
+                </span>
+            ))}
+          </div> */}
+          <span>React #Redux #Firebase #Firestore #Sass #MobileFirst</span>
           <h2>Chat grupal</h2>
           <p>
             Proyecto web que permite iniciar una conversación en un chat grupal, 
@@ -64,7 +79,7 @@ export const PersonalProjects = () => {
         <div>
           <Image
             src="/pokedex.gif"
-            alt="photo Juan David"
+            alt="Gif pokedex app"
             width={335}
             height={700}
             style={{
@@ -74,7 +89,7 @@ export const PersonalProjects = () => {
           />
           <Image
             src="/iphone-mockup.png"
-            alt="photo Juan David"
+            alt="Mockup phone"
             width={360}
             height={740}
             style={{
