@@ -4,7 +4,6 @@ import {
     DiHtml5, 
     DiCss3 
 } from "react-icons/di";
-import { FaLinkedinIn } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 
 import Image from "next/image";
