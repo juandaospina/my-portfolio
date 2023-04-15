@@ -23,7 +23,7 @@ export const InitialContent = () => {
       <p className={styles.description}>
         Tecnólogo en desarrollo de software, con 1 año de experiencia en desarrollo
         Frontend usando tecnologías y lenguajes como, HTML5, CSS3, JavaScript,
-        TypeScript, React JS, Redux Toolkit, React Hook Form, Next JS entre otras tecnologías
+        TypeScript, React JS, Angular, Redux Toolkit, React Hook Form, Next JS entre otras tecnologías
       </p>
 
     <div className={styles.wrapperButtons}>
