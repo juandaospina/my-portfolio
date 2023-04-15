@@ -1,18 +1,19 @@
 import Image from "next/image";
 import styles from "../../../styles/Knowledges.module.css";
 
-import HtmlImage from "./../../../public/html.png";
-import CssImage from "./../../../public/css.png";
-import SassImage from "./../../../public/sass.png";
-import JavascriptImage from "./../../../public/javascript.png";
-import TypescriptImage from "./../../../public/typescript.png";
-import ReactImage from "./../../../public/react.png";
-import ReduxImage from "./../../../public/redux.png";
-import ReactQueryImage from "./../../../public/react-query.png";
-import NextImage from "./../../../public/nextjs.png";
-import NodeImage from "./../../../public/node.png";
-import ExpressImage from "./../../../public/express.png";
-import GitImage from "./../../../public/git.png";
+import HtmlImage from "./../../../public/assets/html.png";
+import CssImage from "./../../../public/assets/css.png";
+import SassImage from "./../../../public/assets/sass.png";
+import JavascriptImage from "./../../../public/assets/javascript.png";
+import TypescriptImage from "./../../../public/assets/typescript.png";
+import ReactImage from "./../../../public/assets/react.png";
+import AngularImage from "./../../../public/assets/angular.png";
+import ReduxImage from "./../../../public/assets/redux.png";
+import ReactQueryImage from "./../../../public/assets/react-query.png";
+import NextImage from "./../../../public/assets/nextjs.png";
+import NodeImage from "./../../../public/assets/node.png";
+import ExpressImage from "./../../../public/assets/express.png";
+import GitImage from "./../../../public/assets/git.png";
 
 export const Knowledges = () => {
   return (
@@ -48,6 +49,11 @@ export const Knowledges = () => {
         <div className={styles.card_skills}>
           <Image src={ReactImage} alt="react image" width={50} height={50} />
           <span>React JS</span>
+        </div>
+
+        <div className={styles.card_skills}>
+          <Image src={AngularImage} alt="angular image" width={50} height={50} />
+          <span>Angular</span>
         </div>
 
         <div className={styles.card_skills}>

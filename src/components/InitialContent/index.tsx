@@ -4,7 +4,6 @@ import {
     DiHtml5, 
     DiCss3 
 } from "react-icons/di";
-import { FaLinkedinIn } from "react-icons/fa";
 import { SiTypescript } from "react-icons/si";
 
 import Image from "next/image";
@@ -24,7 +23,7 @@ export const InitialContent = () => {
       <p className={styles.description}>
         Tecnólogo en desarrollo de software, con 1 año de experiencia en desarrollo
         Frontend usando tecnologías y lenguajes como, HTML5, CSS3, JavaScript,
-        TypeScript, React JS, Redux Toolkit, React Hook Form, Next JS entre otras tecnologías
+        TypeScript, React JS, Angular, Redux Toolkit, React Hook Form, Next JS entre otras tecnologías
       </p>
 
     <div className={styles.wrapperButtons}>
