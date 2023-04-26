@@ -71,8 +71,7 @@
 
 .card div > span {
   color: #57606a;
-  font-size: 10px;
-  /* border: 1px solid #57606a; */
+  font-size: 12px;
 }
 
 .card div > p {
@@ -115,7 +114,6 @@
     width: 50rem;
   }
   .card {
-    /* width: 80rem; */
     align-items: flex-start;
     gap: 50px;
     display: flex;
