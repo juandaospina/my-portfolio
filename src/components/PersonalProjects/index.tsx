@@ -3,21 +3,6 @@ import Image from "next/image";
 
 import styles from "../../../styles/Projects.module.css";
 
-const tecnologies_chat = [
-  "React",
-  "JavaScript",
-  "Firebase",
-  "redux",
-  "MobileFirst",
-];
-const tecnologies_pokedex = [
-  "React",
-  "JavaScript",
-  "Firebase",
-  "redux",
-  "MobileFirst",
-];
-
 export const PersonalProjects = () => {
   return (
     <section id="projects" className={styles.grid}>
@@ -53,17 +38,7 @@ export const PersonalProjects = () => {
         </div>
 
         <div>
-          {/* <div className={styles.container_tecnologies}>
-            {tecnologies_chat.map((item, index) => (
-                <span 
-                  key={index}
-                  className={styles.tecnologies}
-                >
-                  {item}
-                </span>
-            ))}
-          </div> */}
-          <span>React #Redux #Firebase #Firestore #Sass #MobileFirst</span>
+          <span>#React #Redux #Firebase #Firestore #Sass #MobileFirst</span>
           <h2>Chat grupal</h2>
           <p>
             Proyecto web que permite iniciar una conversación en un chat grupal,
@@ -82,6 +57,54 @@ export const PersonalProjects = () => {
               textColor="#000"
               text="Código"
               url="https://bitbucket.org/juand_ospina/proyecto-final-sena/"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div className={styles.card}>
+        <div>
+          <Image
+            src="/translate.gif"
+            alt="Gif translate web app"
+            width={335}
+            height={700}
+            style={{
+              position: "relative",
+              marginTop: "18px",
+            }}
+          />
+          <Image
+            src="/iphone-mockup.png"
+            alt="Mockup phone"
+            width={360}
+            height={740}
+            style={{
+              position: "absolute",
+            }}
+          />
+        </div>
+
+        <div>
+          <span>#React #TypeScript #Reducer #ApiRest #MobileFirst</span>
+          <h2>Translate App</h2>
+          <p>
+            Aplicación web que permite traducción de textos a diferentes idiomas,
+            ver historial de traducciones, copiar respuesta en portapapeles y escuchar
+            respuesta en audio. Este proyecto fue desarrollado consumiendo la api de 
+            Google Translator (Rapidapi)
+          </p>
+          <div>
+            <Button
+              background="#24292f"
+              text="Demo"
+              url="https://translation-web.vercel.app/"
+            />
+            <Button
+              background="#FFF"
+              textColor="#000"
+              text="Código"
+              url="https://github.com/juandaospina/react-translate-app"
             />
           </div>
         </div>
