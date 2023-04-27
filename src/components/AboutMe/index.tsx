@@ -28,6 +28,7 @@ export const AboutMe = () => {
         />
         <div>
           <h2>Juan David</h2>
+          <h2>Saldarriaga Ospina</h2>
           <p>Frontend Developer</p>
           <div className={styles.cardSocial}>
             <a href="https://www.linkedin.com/in/juan-david-saldarriaga-ospina-268224197/">
