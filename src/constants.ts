@@ -12,6 +12,13 @@ import {
   NodeImage,
   ExpressImage,
   GitImage,
+  PythonImage,
+  FastapiImage,
+  FlaskImage,
+  PostgresqlImage,
+  MongodbImage,
+  FirebaseImage,
+  DockerImage,
 } from "../public/assets";
 
 export const KNOWLEDGES = {
@@ -66,5 +73,33 @@ export const KNOWLEDGES = {
   Git: {
     img: GitImage,
     alt: "Git image"
+  },
+  Python: {
+    img: PythonImage,
+    alt: "Python image"
+  },
+  FastAPI: {
+    img: FastapiImage,
+    alt: "FastAPI image"
+  },
+  Flask: {
+    img: FlaskImage,
+    alt: "Flask image"
+  },
+  PostgreSQL: {
+    img: PostgresqlImage,
+    alt: "PostgreSQL image"
+  },
+  MongoDB: {
+    img: MongodbImage,
+    alt: "MongoDB image"
+  },
+  Firebase: {
+    img: FirebaseImage,
+    alt: "Firebase image"
+  },
+  Docker: {
+    img: DockerImage,
+    alt: "Docker image"
   },
 } as const;

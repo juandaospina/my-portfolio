@@ -30,7 +30,6 @@ export default function Home() {
         <footer className={styles.footer}>
           <span>Juan David Saldarriaga Ospina</span>
           <span>juan.ospinal@outlook.com</span>
-          <span>+573193188631</span>
         </footer>
       </div>
     </>
