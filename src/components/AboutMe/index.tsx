@@ -1,5 +1,6 @@
-import { BsLinkedin, BsTwitter, BsDiscord } from "react-icons/bs";
 import Image from "next/image";
+
+import { BsLinkedin } from "react-icons/bs";
 
 import styles from "../../../styles/AboutMe.module.css";
 
@@ -9,10 +10,12 @@ export const AboutMe = () => {
       <h1 className={styles.title_text}>Acerca de mí</h1>
 
       <p className={styles.description_text}>
-        Tecnólogo en sistemas con experiencia en desarrollo front-end. Me gusta escribir 
+        Tecnólogo en sistemas con experiencia en diseño, desarrollo, pruebas y
+        mantenimiento de software. Con dominio de lenguajes de programación 
+        para el desarrollo de sistemas del lado del cliente y servidor. Me gusta escribir 
         código de calidad que permita seguir el lineamiento de los objetivos, como también 
         las mejores prácticas de rendimiento y calidad de código. Creativo y con buenas habilidades 
-        comunicativas y un aprendiz constante. 
+        comunicativas.
       </p>
 
       <div className={styles.cardAboutMe}>
@@ -29,16 +32,10 @@ export const AboutMe = () => {
         <div>
           <h2>Juan David</h2>
           <h2>Saldarriaga Ospina</h2>
-          <p>Frontend Developer</p>
+          <p>Software Developer</p>
           <div className={styles.cardSocial}>
             <a href="https://www.linkedin.com/in/juan-david-saldarriaga-ospina-268224197/">
               <BsLinkedin />
-            </a>
-            <a>
-              <BsDiscord />
-            </a>
-            <a href="https://twitter.com/Juandaosp">
-              <BsTwitter />
             </a>
           </div>
         </div>
