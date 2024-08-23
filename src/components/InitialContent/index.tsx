@@ -17,13 +17,14 @@ export const InitialContent = () => {
       <h1 className={styles.title}>
         ¡Hola! Soy Juan David
         <br></br>
-        Frontend Developer
+        Software Developer
       </h1>
 
       <p className={styles.description}>
-        Tecnólogo en desarrollo de software, con 1 año y 5 meses de experiencia en desarrollo
-        Frontend usando tecnologías y lenguajes como, HTML5, CSS3, JavaScript,
-        TypeScript, React JS, Angular, Redux Toolkit, React Hook Form, Next JS entre otras tecnologías
+        Desarrollador de software con conocimiento y experiencia en tecnologías web
+        JavaScript, TypeScript, Angular y React, como también tecnologías para desarrollo backend
+        de las cuales se destacan Python, FastAPI, Flask, Node.js, Express.js, Firebase, PostgreSQL, 
+        MongoDB y Docker.
       </p>
 
     <div className={styles.wrapperButtons}>
